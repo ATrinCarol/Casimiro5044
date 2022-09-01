@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+    padding-top: 0px;
+    font-family: 'Noto Serif', serif;
+}
+
+.ml-5{
+margin-left: 5rem;
+}
+
+.mr-5{
+    margin-right: 5rem;
+}
+
+.mt-5{
+    margin-top: 5rem;
+}
+
+.mb-5{
+    margin-bottom: 5rem;
+}
+
+li {
+    color: black;
+    padding-left: 60px;
+    font-size: 18px;
+}
+
+li:hover {
+    color: rgb(255, 238, 0);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+.menunav {
+    display: flex;
+    background: rgb(223, 74, 106);
+    background: linear-gradient(90deg, rgb(223, 68, 140) 20%, rgba(255, 94, 0, 1) 100%);
+    backdrop-filter: blur(50px);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(247, 161, 0, 0.719);
+    backdrop-filter: blur(10px);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*Index*/
+
+.topo {
+    background-image: url('https://i.imgur.com/BcS4Xc2.jpg');
+    background-size: cover;
+}
+
+.fotopo {
+    border-radius: 20%;
+}
+
+.tit-pisca {
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    font-family: serif;
+    color: #ff5b19;
+    text-align: center;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*Propostas*/
+
+.fundo-social {
+    background-image: url('https://i.imgur.com/Zx16V1B.png');
+    background-repeat: repeat;
+}
+.fundo-educacao {
+    background-image: url('https://i.imgur.com/dE5vycu.png');
+    background-repeat: repeat;
+}
+.fundo-saude {
+    background-image: url('https://i.imgur.com/T1wRVZT.png');
+    background-repeat: repeat;
+}
+.fundo-cultura {
+    background-image: url('https://i.imgur.com/n916sB2.png');
+    background-repeat: repeat;
+}
+.fundo-hiphop {
+    background-image: url('https://i.imgur.com/y9hokCV.png');
+    background-repeat: repeat;
+}
+.fundo-seguranca {
+    background-image: url('https://i.imgur.com/LMVOMIV.png');
+    background-repeat: repeat;
+}
+.fundo-esporte{
+    background-image: url('https://i.imgur.com/Wp1UQyo.png');
+    background-repeat: repeat;
+}
+.fundo-meioambiente {
+    background-image: url('https://i.imgur.com/g6PDvbU.png');
+    background-repeat: repeat;
+}
+.fundo-causaanimal {
+    background-image: url('https://i.imgur.com/CxdEJcn.png');
+    background-repeat: repeat;
+}
+
+/*Quem*/
+.fundo-quem{
+background-image: url('https://i.imgur.com/DhPgzJZ.jpg');
+background-repeat: repeat;
+background-size: 10rem;
+}
+
+/*Contatos*/
+.tamanho-logo{
+    text-align: center;
+}
+
